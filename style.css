@@ -468,6 +468,7 @@ button {
     display: flex;
     transition: transform 0.5s ease-in-out;
     width: 100%;
+    margin-top: 2rem;
 }
 
 .carousel img {
@@ -482,7 +483,9 @@ button {
     .hero-left h1 {
         font-size: 2rem;
     }
+    
 }
+
 
 /* ========== Hero container end============ */
 /* ===========Cards section=============== */
@@ -629,7 +632,7 @@ button {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
     .grid-list {
         grid-template-columns: repeat(1, 1fr);
         gap: 1.5rem;
@@ -648,6 +651,7 @@ button {
         font-size: 0.9rem;
     }
 }
+
 /* ===================Partner Section ==============*/
 
 .content-section {
@@ -722,14 +726,14 @@ button {
 /* ==================Courosel section start ============= */
 
 .infinite-carousel {
-    padding:3rem 0;
-    overflow: hidden; 
+    padding: 3rem 0;
+    overflow: hidden;
     position: relative;
     margin-top: 2rem;
 }
 
-.carousel-wrapper {
-    width:100%;
+.carousel-wrap {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -743,7 +747,7 @@ button {
 
 .partnerCourosel img {
     width: 150px;
-    height:100%;
+    height: 100%;
     border-radius: 8px;
 }
 
@@ -752,16 +756,18 @@ button {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-100%);
     }
 }
 
 @media (max-width: 768px) {
-    .carousel img {
+    .infinite-carousel img {
         width: 100px;
     }
 }
+
 /* ==================Courosel end =======================*/
 
 /* =============Testimonials start============ */
@@ -791,14 +797,14 @@ button {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-    border:1.5px solid #cccccc;
+    border: 1.5px solid #cccccc;
 }
 
 .testimonial-text {
     font-size: 1rem;
     line-height: 1.8;
     margin-bottom: 1.5rem;
-    color:var(--text-color);
+    color: var(--text-color);
 }
 
 .testimonial-author {
@@ -820,7 +826,7 @@ button {
 
 .author-name {
     font-size: 1.125rem;
-    color:var(--first-color);
+    color: var(--first-color);
     font-weight: bold;
 }
 
@@ -853,6 +859,7 @@ button {
         font-size: 1rem;
     }
 }
+
 /* ===================Testimonaials end-================== */
 
 
@@ -1013,7 +1020,7 @@ button {
 }
 
 .newsletter-form input[type="email"]:focus {
-    border-color:var(--first-color);
+    border-color: var(--first-color);
     outline: none;
 }
 
@@ -1021,7 +1028,7 @@ button {
     padding: 12px 25px;
     font-size: 1rem;
     color: #ffffff;
-    background-color:var(--first-color);
+    background-color: var(--first-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -1068,7 +1075,7 @@ button {
 }
 
 .footer-left {
-    flex:1 1 40%;
+    flex: 1 1 40%;
 }
 
 .footer-logo img {
@@ -1079,7 +1086,7 @@ button {
 .footer-description {
     margin-top: 1rem;
     color: #6B7280;
-    width:80%;
+    width: 80%;
 }
 
 .footer-socials {
